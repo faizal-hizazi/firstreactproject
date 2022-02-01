@@ -1,0 +1,53 @@
+.dropdown-menu {
+  position: inherit;
+  z-index: 20;
+}
+.optiontop {
+  font-family: SF Pro;
+  margin-left: 400px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height */
+
+  /* Dark Green */
+
+  color: #205284;
+
+  mix-blend-mode: normal;
+  opacity: 0.9;
+}
+
+.nav-item1 {
+}
+.nanbar1 {
+  height: 10%;
+  background-color: blue;
+}
+.navlinkimg {
+  height: 20px;
+  width: 20px;
+}
+
+.dropdown-toggle {
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: right;
+
+  /* Combined Shape */
+
+  color: #6f6c99;
+
+  mix-blend-mode: normal;
+}
+@media (main-width: 984) {
+  .navbar-brand {
+    margin-left: 1%;
+  }
+}

@@ -1,0 +1,79 @@
+.chatmain {
+  height: 82vh;
+
+  box-sizing: border-box;
+  overflow: scroll;
+}
+.chathead {
+  margin-left: 45%;
+}
+.chatheading {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 34, 0.8);
+}
+.input {
+  width: 86%;
+  margin-left: 2%;
+  background: #f6f6fa;
+  border-radius: 10px;
+  padding: 5px;
+}
+.browse {
+}
+.chatinput {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+
+  background-color: white;
+}
+.chatcontent {
+}
+.chatyou {
+  display: flex;
+  box-sizing: border-box;
+  float: left;
+
+  width: 99%;
+  /* flex-direction: row-reverse; */
+  /* margin-bottom: 6%; */
+}
+.chatyou > p {
+  background: #4b4b4b;
+  border-radius: 20px 20px 20px 0;
+  margin: 1vmax;
+  padding: 1vmax;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.chatme {
+  display: flex;
+  float: right;
+
+  /* margin-bottom: 6%; */
+}
+.chatme > p {
+  background: #41a2fc;
+  border-radius: 20px 20px 0 20px;
+  margin: 1vmax;
+  padding: 1vmax;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}

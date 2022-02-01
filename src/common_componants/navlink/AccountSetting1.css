@@ -1,0 +1,127 @@
+.progressbarwrap {
+  width: 425px;
+  height: 150px;
+  background: #4267b2;
+  border-radius: 10px;
+}
+.progressbar {
+  position: absolute;
+  width: 101.07px;
+  height: 101.07px;
+  left: 39px;
+  top: 26.46px;
+}
+.progressbarcontent {
+  position: absolute;
+  top: 16px;
+  left: 174px;
+}
+.progressbarwrap .progressbarcontent h3 {
+  font-family: SF Pro;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.progressbarwrap .progressbarcontent p {
+  font-family: SF Pro;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.progressbarwrap .progressbarcontent button {
+  font-family: SF Pro Display;
+  width: 190px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #4267b2;
+  background: #ffffff;
+  border-radius: 7px;
+}
+.accountsettingoption {
+  position: absolute;
+
+  left: 7px;
+  top: 200px;
+}
+.accountsettingoption .invoice {
+  width: 423px;
+  height: 70px;
+
+  background: #f6f6fa;
+  box-shadow: -40px -10px 140px rgba(126, 123, 160, 0.2);
+  border-radius: 10px;
+}
+.accountsettingoption .invoice .linkcss {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #aab2c8;
+  text-decoration: none;
+}
+.invoice:hover {
+  border: #4267b2 solid 1px;
+}
+.linkcss:hover {
+  color: #4267b2;
+  text-decoration: underline;
+}
+.resultaccount {
+  position: fixed;
+  width: 34%;
+  height: 85%;
+  right: 2%;
+  top: 70px;
+  z-index: 2;
+  background: #f6f6fa;
+  box-shadow: 0px 4px 140px rgba(126, 123, 160, 0.2);
+  border-radius: 10px;
+}
+/* .resultaccount:hover {
+  border: #4267b2 solid 1px;
+} */
+.invoiceheading {
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  letter-spacing: 0.0006em;
+
+  color: #4267b2;
+}
+/* @media (max-width: 500px) {
+  .progressbar {
+    width: 70px;
+    height: 70px;
+  }
+  .progressbarwrapP {
+    width: 350px;
+  }
+} */
+.addaccount {
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.8);
+}
+.iconstyling {
+  font-size: 50px;
+  padding-top: 5px;
+}

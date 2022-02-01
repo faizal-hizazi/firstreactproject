@@ -1,0 +1,42 @@
+.option {
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: 0.0006em;
+  cursor: pointer;
+  color: #4c4c66;
+}
+.content {
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.0006em;
+
+  color: rgba(0, 0, 34, 0.5);
+}
+.textbox {
+  background: #ffffff;
+  border-radius: 5px;
+  display: block;
+  width: 70%;
+  margin-top: 2%;
+}
+.boxbtn {
+  font-family: SF Pro;
+  font-style: normal;
+  margin-top: 3%;
+  padding: 2%;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  background: #4267b2;
+  border-radius: 5px;
+  color: #ffffff;
+}

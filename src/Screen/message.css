@@ -1,0 +1,21 @@
+.messagecontainer {
+}
+.messagetitle {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: rgba(66, 103, 178, 0.8);
+}
+.message {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #9d9d9d;
+}

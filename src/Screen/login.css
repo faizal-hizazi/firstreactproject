@@ -1,0 +1,120 @@
+.inputLogin {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+.logo {
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.06px;
+  color: #4c4c66;
+}
+.Heading {
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height */
+
+  /* #000000 */
+
+  color: rgba(0, 0, 0, 0.85);
+}
+.label1 {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #444150;
+}
+.para1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  /* #444150 */
+
+  color: #444150;
+}
+.mainbtn {
+  background: #4368b3;
+  border-radius: 6px;
+  width: 90%;
+  height: 40px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* #FFFFFF */
+
+  color: #ffffff;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.mr15 {
+  margin-right: 15px;
+}
+.mr20 {
+  margin-right: 20px;
+}
+.logo2 {
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.06px;
+  margin-top: 40px;
+
+  /* Dark / 1 */
+
+  color: #4c4c66;
+}
+.heading2 {
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height */
+
+  /* #000000 */
+
+  color: rgba(0, 0, 0, 0.85);
+}
+.para2 {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+
+  /* identical to box height, or 162% */
+
+  /* #444150 */
+
+  color: #444150;
+}
+.mr100 {
+  margin-right: 100px;
+}
+.signupInput {
+  width: auto;
+}

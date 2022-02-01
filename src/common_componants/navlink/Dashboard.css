@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.dashboard {
+  /* position: absolute;
+  left: 1%;
+  top: 1%;
+  width: 90% !important;*/
+  height: 150px !important;
+}
+.chartoption {
+  width: 190px;
+  height: 74px;
+  /* position: absolute;
+  top: 5%;
+  left: 6%; */
+  background: #4267b2;
+  border-radius: 10px;
+}
