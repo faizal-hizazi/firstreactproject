@@ -23,7 +23,7 @@ class Accordian extends Component {
         //   });
         // }}
         >
-          <div>
+          <div className="mx-2 p-2 ">
             <h3
               className="option"
               onClick={(e) => {

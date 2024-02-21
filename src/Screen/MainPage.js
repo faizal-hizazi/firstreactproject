@@ -13,6 +13,7 @@ import Messages from "./Messages";
 import Chat from "./Chat";
 
 class MainPage extends Component {
+
   render() {
     return (
       <div className=" ">
@@ -22,9 +23,17 @@ class MainPage extends Component {
         <div className=" navbar1 ">
           <Navbar />
         </div>
-        <div className="maincontent ">
-          <Chat />
-        </div>
+       
+          <div className="maincontent ">
+          <Switch>
+            <Route exact path="/"><Dashboard /> </Route>
+            <Route exact  path="/message"><Chat /> </Route>
+            <Route exact  path="/accountsetting"><AccountSetting1 /> </Route>
+
+            </Switch>
+
+          </div>
+       
       </div>
     );
   }

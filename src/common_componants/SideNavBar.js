@@ -21,7 +21,7 @@ class SideNavBar extends Component {
               {navdata.map((data, index) => {
                 return (
                   <li key={index} className="active">
-                    <Link className="linkdeco" to={data.path}>
+                    <Link  className="linkdeco" to={data.path}>
                       <img src={data.iconimage} className=" pe-2" alt=""></img>
                       {data.title}
                     </Link>
